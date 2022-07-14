@@ -229,128 +229,404 @@ color: #0065fc;
   }
 
   /*main*/
-/*bloc hebergement+les plus populaires*/
-.blocs{
-  display: flex;
-  flex-wrap: wrap;
 
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  main{
+    width: 99%;
+  }
+/*bloc hebergement*/
+.titre_bloc_hebergement{
+  font-weight: 900;
+  font-size: 18px;
+  padding-top: 10px;
 }
-
 
 .deux_blocs{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 99%;
+  
+  }
+
 
 .bloc_hebergement{
   flex: 2;
-  height: 700px;
+  height: 690px;
   width: 400px;
+  margin-left: 40px;
   margin-right: 10px;
-  margin-left: 50px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #F2F2F2;
   padding-left: 10px;
   padding-right: 10px;
+
 }
 
 .bloc_populaire{
   flex: 1;
-  height: 700px;
+  height: 690px;
   width: 80px;
   margin-left: 20px;
   margin-right: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #F2F2F2;
-
-}
- /*les images*/
-
-.image1{
-  width: 200px;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
-}
-.image2{
-  width: 200px;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
-}
-.image3{
-  width: 200px;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
-}
-.image4{
-  width: 200px;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
-}
-.image5{
-  width: 200px;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
-}
-.image6{
-  width: 200px;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
-}
-.image7{
-  width: 200px;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
-  margin-left: 30px;
-}
-.image8{
-  width: 200px;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
-  margin-left: 30px;
-}
-.image9{
-  width: 200px;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
-  margin-left: 30px;
 }
 
-/*les petits blocs dans les blocs*/
-
-.bloc1{
+  
+.blocs{
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.bloc{
+  width: 33.3333%;
+  padding: 10px;
+}
+
+
+
+.bloc a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  border: 5px #fff solid;
+  box-shadow: 0 0 1em rgb(198, 197, 197);
+}
+  
+.bloc :hover{
+  transform: scale(1.02);
+}
+.afficher a{
+text-decoration: none;
+font-weight: 900;
+font-size: 15px;
+color: black;
+}
+
+.bloc figure{
+  margin: 0;
+}
+
+.bloc .figure-image{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.bloc h3{
+  margin: 0;
+  font-weight: 900;
+}
+.bloc p{
+  margin: 10px 0;
+}
+
+.texte_sous_photo{
+  font-size: 13px;
+  color: black;
+  padding: 15px;
+}
+
+p{
+  font-weight: 500;
+}
+
+.etoilegrise{
+  color: rgb(196, 191, 191);
+}
+.etoilebleu{
+  color: #0065fc;
+}
+
+ /*les images hebergement*/
+
+
+/*le bloc populaire*/
+
+.titre_bloc_populaire {
+  font-weight: 900;
+  font-size: 18px;
+ 
+}
+
+.titre_etoile{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.blocs2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+ 
+}
+
+.card{
+  width: 100%;
+  padding: 15px;
+}
+
+.card :hover{
+  transform: scale(1.02);
+}
+
+.card a{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 160px;
+  background-color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 5px #fff solid;
+}
+
+.card figure{
+  margin: 0;
+  width: 40%;
+}
+
+.card .figure-image{
+  width: 100%;
+ height: 150px;
+  border-radius: 15px 0 0 15px;
+  object-fit: cover;
+}
+
+.card h3{
+  margin: 0;
+  font-weight: 900;
+}
+.card p{
+  margin: 10px 0;
+}
+
+
+
+.texte_populaire{
+  width: 70%;
+  font-size: 13px;
+  color: black;
+  padding: 10px;
+}
+
+.etoilegrise{
+  color: rgb(196, 191, 191);
+}
+.etoilebleu{
+  color: #0065fc;
+}
+
+.stars{
+padding-top: 50px;
+}
+
+/*activités à marseille*/
+
+.titre{
+  padding-top: 30px;
+}
+
+/*Activités à marseille*/
+
+.activites_a_marseille{
+  width: 100%;
+  height: 630px;
+}
+
+.titre{
+  font-size: 18px;
+}
+
+.deux_blocs_activites{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+
+}
+
+.premierbloc{
+  width: 50%;
+  height: 500px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+ 
+  }
+
+.deuxiemebloc{
+  width: 50%;
+  height: 500px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+}
+
+.container1{
+background-color: white;
+border-radius: 20px;
+box-shadow: 0 0 1em rgb(198, 197, 197);
+width: 40%;
+height: 450px;
+margin-right: 20px;
+}
+
+.container1 :hover{
+  transform: scale(1.02);
+}
+
+.container2{
+background-color: white;
+border-radius: 20px;
+box-shadow: 0 0 1em rgb(198, 197, 197);
+width: 45%;
+height: 230px;
+margin-bottom: 40px;
+}
+
+.container3{
+background-color: white;
+border-radius: 20px;
+box-shadow: 0 0 1em rgb(198, 197, 197);
+width: 45%;
+height: 180px;
+
+}
+
+.container1 figure{
+  margin: 0;
+  width: 100%;
+}
+
+.container1 .figure-image{
+  width: 100%;
+ height: 400px;
+ object-fit: cover;
+ border-radius: 20px 20px 0 0;
+}
+
+.container1 a{
+  text-decoration: none;
+  color: black;
+}
+
+.container1 h2{
+  margin-left:20px;
+}
+
+.container2 figure{
+  margin: 0;
+  width: 100%;
+}
+
+.container2 .figure-image{
+  width: 100%;
+ height: 180px;
+ border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.container2 a{
+  text-decoration: none;
+  color: black;
+}
+
+.container2 h2{
+  margin-left:20px;
+}
+
+.container3 figure{
+  margin: 0;
+  width: 100%;
+}
+
+.container3 .figure-image{
+  width: 100%;
+ height: 140px;
+ border-radius: 20px 20px 0 0;
+object-fit: cover;
+}
+
+.container3 a{
+  text-decoration: none;
+  color: black;
+}
+
+.container3 h2{
+  margin-left:20px;
+  margin-top: 6px;
+}
+/*footer*/
+
+footer{
+  width: 95%;
+  height: 230px;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-.etoile{
-  display: flex;
-  justify-content: center;
-  align-items: ;
+
+footer ul{
+  width: 400px;
 }
 
 
-
-
+.bloc_footer{
+  width: 100%;
+  margin-top: 20px;
+  display: block;
+  align-items: center;
+  padding: 0;
  
+  
+}
+
+.a_propos{
+  width: 33.33%;
+ margin-right: 150px;
+
+}
+
+.nos_hebergement{
+width: 33.33%;
+margin-right: 150px;
+}
+
+.assistance{
+width: 33.33%;
+}
+
+
+footer ul a
+{
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer h2{
+margin-left: 0;
+font-size: 18px;
+margin-bottom: 30px;
+}
+
+footer li{
+  margin-top: 20px;
+  font-size: 15px;
+}
