@@ -497,6 +497,10 @@ width: 45%;
 height: 230px;
 margin-bottom: 40px;
 }
+.container2 :hover{
+  transform: scale(1.02);
+}
+
 
 .container3{
 background-color: white;
@@ -506,6 +510,10 @@ width: 45%;
 height: 180px;
 
 }
+.container3 :hover{
+  transform: scale(1.02);
+}
+
 
 .container1 figure{
   margin: 0;
@@ -590,29 +598,27 @@ footer ul{
   width: 100%;
   margin-top: 20px;
   display: block;
-  align-items: center;
+
   padding: 0;
  
   
 }
 
-.a_propos{
-  width: 33.33%;
- margin-right: 150px;
 
-}
-
-.nos_hebergement{
+.bloc-interieur{
 width: 33.33%;
 margin-right: 150px;
 }
+.bloc-interieur ul{
+  margin-left: 10px;
+}
 
-.assistance{
-width: 33.33%;
+.bloc-interieur h2{
+  text-align: left;
 }
 
 
-footer ul a
+footer ul 
 {
     font-size: 17px;
     color: black;
@@ -621,9 +627,9 @@ footer ul a
 }
 
 footer h2{
-margin-left: 0;
+
 font-size: 18px;
-margin-bottom: 30px;
+
 }
 
 footer li{
