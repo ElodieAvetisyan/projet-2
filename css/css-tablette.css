@@ -1,31 +1,32 @@
 /*version tablette 768*/
 
-@media (max-width: 768px){ 
+@media (max-width: 992px){ 
 
 nav ul{
   padding-left: 400px;
     }
 
 .deux_blocs{
-        width: 130%;
+        width: 150%
         }
 
 .bloc_hebergement{
-        height: 730px;
+        height: 750px;
     }
 
  .bloc_populaire{
-        height: 730px;
+        height: 750px;
 
     }
 
 .stars{
-            padding-top: 30px;
+            padding-top: 10px;
+            
         }
         
         
 .activites_a_marseille{    
-    width: 130%;   
+    width: 150%;   
 }
 
 .container1{
@@ -41,7 +42,7 @@ nav ul{
 }
 
 footer{
-  width: 130%;
+  width: 150%;
 }
 
 .bloc-interieur{
