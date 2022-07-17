@@ -1,0 +1,49 @@
+@media screen and (min-width:768px)
+
+-nav ul{
+    padding-left: 400px;
+      }
+  
+  .deux_blocs{
+          width: 140%
+          }
+  
+  .bloc_hebergement{
+          height: 750px;
+      }
+  
+   .bloc_populaire{
+          height: 750px;
+  
+      }
+  
+  .stars{
+              padding-top: 0px;
+              
+          }
+          
+          
+  .activites_a_marseille{    
+      width: 140%;   
+  }
+  
+  .container1{
+      height: 470px;
+  }
+  
+  .container2{
+      width: 55%;
+      height: 240px;
+  }
+  
+  .container3{
+      width: 55%;
+  }
+  
+  footer{
+    width: 99%;
+  }
+  
+.loupe{
+    display: none;
+}
