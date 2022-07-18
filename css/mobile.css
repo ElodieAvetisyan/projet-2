@@ -3,6 +3,7 @@
   
     header{
         width: 100%;
+        margin-left: 100px;
         display: flex;
         flex-direction: column;
     }
@@ -11,27 +12,31 @@
         width: 100%;
         height: 50%;
         margin-left: 120%;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     nav{
-        width: 830px;
+        width: 900px;
        margin-left: 30px;
        margin-right: 0;}
 
     nav ul{
-        margin-right: 0
-        ;
+        margin-right: 0;
+     ;
     }
     nav ul li{
         font-weight: 900;
-        padding-left: 8%;
+        padding-left: 50px;
+        padding-right: 50px;
         margin-right: 20px;
+       
+        margin-top: 20px;
 
     }
 
     nav a{
-        font-size: 30px;
+        font-size: 40px;
+        
     }
     
     nav ul li:hover{
@@ -58,7 +63,7 @@
       }
       
       form{
-        margin-top: 50px;
+        margin-top: 30px;
         margin-bottom: 50px;
         margin-left: 28%;
         width: 600px;
@@ -91,16 +96,19 @@
 .filtres{
     display: flex;
     flex-direction: column;
-    padding-left: 100%;
+    padding-left: 80%;
+    width: 100%;
 }
 
 .filtres h3{
     font-size: 35px;
+   
 }
 
 .iconettexte{
+
 font-size: 30px;
-width: 450px;
+width: 400px;
 height: 90px;
 padding-left: 30px;
 margin-bottom: 20px;
@@ -120,6 +128,8 @@ justify-content: left;
     height: 100px;
     border-radius: 50px;
     margin-right: 20px;
+    margin-left: -30px;
+    
    
   }
   
@@ -128,6 +138,7 @@ justify-content: left;
     height: 100px;
     border-radius: 50px;
     margin-right: 20px;
+    margin-left: -30px;
 
   }
   
@@ -136,6 +147,7 @@ justify-content: left;
     height: 100px;
     border-radius: 50px;
     margin-right: 20px;
+    margin-left: -30px;
   }
   
   .fa-solid.fa-dog{
@@ -143,6 +155,7 @@ justify-content: left;
     height: 100px;
     border-radius: 50px;
     margin-right: 20px;
+    margin-left: -30px;
   }
 
   .fa-solid.fa-circle-info{
@@ -166,22 +179,23 @@ justify-content: left;
       .bloc_populaire{
         flex: 2;
         width: 700px;
-        margin-top: 10%;
+        margin-top: 20px;
         margin-left: 100px;
         background-color: #F2F2F2;
       }
      
      .titre_bloc_populaire h3{
-      font-size: 30px;
+      font-size: 40px;
      }
-      .titre_etoile{
-        font-size: 30px;
+      .titre_etoile .fa-solid.fa-star{
+        font-size: 40px;
       }
       .card h3{
-        font-size: 22px;
+        font-size: 26px;
+        font-weight: 900;
       }
       .card p{
-        font-size: 19px;
+        font-size: 24px;
       }
 
       .stars{
@@ -189,7 +203,7 @@ justify-content: left;
       }
       
       .titre_bloc_hebergement{
-        margin-top: 30px;
+        margin-top: 20px;
         margin-left: 50px;
         width: 800px;
         font-size: 30px;
@@ -212,7 +226,7 @@ justify-content: left;
         width: 650px;
         margin-left: 50px;
         height: 400px;
-        padding-top: 40px;
+        padding-top: 10px;
       }
 
       .bloc .figure-image{
@@ -241,7 +255,7 @@ justify-content: left;
         align-items: center;
         width: 100%;
         height: 300%;
-        padding: 20px;
+        padding: 15px;
       }
 
       .premierbloc{
@@ -277,7 +291,7 @@ height: 300px;
       
         width: 600px;
         height: 300px;
-        margin-top: 10px;
+        margin-top: 20px;
      
       }
 
@@ -314,7 +328,7 @@ height: 300px;
       }
 
       footer{
-        width: 300%;
+        width: 800px;
         height: 600px;
         display: flex;
         flex-direction: column;
@@ -331,10 +345,18 @@ height: 300px;
   
       }
 
+      .bloc-interieur{
+        margin-right: 300px;
+      }
       .bloc-interieur h2{
         font-size: 30px;}
       
         
 footer ul{
   font-size: 25px;
+}
+
+main{
+  height: 100%
+ 
 }

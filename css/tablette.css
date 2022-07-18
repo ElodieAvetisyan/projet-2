@@ -1,11 +1,11 @@
 @media screen and (min-width:768px)
 
 -nav ul{
-    padding-left: 400px;
+    margin-left: 200px;
       }
   
   .deux_blocs{
-          width: 140%
+          width: 160%
           }
   
   .bloc_hebergement{
@@ -24,7 +24,7 @@
           
           
   .activites_a_marseille{    
-      width: 140%;   
+      width: 160%;   
   }
   
   .container1{
@@ -41,7 +41,7 @@
   }
   
   footer{
-    width: 99%;
+    width: 112%;
   }
   
 .loupe{
