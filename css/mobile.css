@@ -1,5 +1,6 @@
 @media screen and (max-width:767px) {
 
+  
     header{
         width: 100%;
         display: flex;
@@ -72,6 +73,7 @@
           height: 100px;
           width:400px;  
           font-size: 40px;
+           border-radius: 30px 0 0 30px;
         }
       
         
@@ -148,4 +150,191 @@ justify-content: left;
     height: 40px;
     }
 
+    .deux_blocs{
+      display: flex;
+      flex-direction: column-reverse;
+      width: 200%;
+      }
+
+      .bloc_hebergement{
+        flex: 1;
+        width: 100%;
+        background-color: white;
+      
+      }
+      
+      .bloc_populaire{
+        flex: 2;
+        width: 700px;
+        margin-top: 10%;
+        margin-left: 100px;
+        background-color: #F2F2F2;
+      }
+     
+     .titre_bloc_populaire h3{
+      font-size: 30px;
+     }
+      .titre_etoile{
+        font-size: 30px;
+      }
+      .card h3{
+        font-size: 22px;
+      }
+      .card p{
+        font-size: 19px;
+      }
+
+      .stars{
+        padding-top: 10px;
+      }
+      
+      .titre_bloc_hebergement{
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 800px;
+        font-size: 30px;
+      }
+
+      .texte_sous_photo h3{
+        font-size: 30px;
+      }
+
+      .texte_sous_photo p{
+        font-size: 25px;
+      }
+
+      .blocs{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .bloc{
+        width: 650px;
+        margin-left: 50px;
+        height: 400px;
+        padding-top: 40px;
+      }
+
+      .bloc .figure-image{
+      height: 200px;
+      }
+
+      .fa-solid.fa-star{
+        font-size: 20px;
+      }
+
+      .afficher h3{
+        margin-left: 50px;
+        font-size: 30px;
+      }
+
+      
+/*.activites_a_marseille{
+  width: 100%;*/
+
+}
+
+
+      .deux_blocs_activites{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+        height: 300%;
+        padding: 20px;
+      }
+
+      .premierbloc{
+        flex-wrap: nowrap;
+       width: 40%;
+       height: 900px
+       
+       ;
+      }
+
+      .deuxiemebloc{
+        flex-wrap: nowrap;
+        width: 40%;
+        height: 900px;
+      }
+
+      .container1{
+      
+width: 600px;
+height: 300px;
+
+      }
+
+      .container2{
+      
+        width: 600px;
+        height: 300px;
+        margin-top: 30px;
+      
+      }
+
+      .container3{
+      
+        width: 600px;
+        height: 300px;
+        margin-top: 10px;
+     
+      }
+
+      .container1 .figure-image{
+    
+       height: 200px;
+      
+      }
+
+      .container3 .figure-image{
+       height: 200px;
+      }
+
+      .container1 h2{
+        font-size: 30px;
+        font-weight: 800;
+      }
+
+      .container2 h2{
+        font-size: 30px;
+        font-weight: 800;
+      }
+
+      .container3 h2{
+        font-size: 30px;
+        font-weight: 800;
+      }
+
+      .titre{
+        margin-left: 50px;
+        width: 200%;
+        font-size: 30px;
+        font-weight: 800;
+      }
+
+      footer{
+        width: 300%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      footer ul{
+        width: 400px;
+      }
+      
+      
+      .bloc_footer{
+        width: 100%;
+        margin-top: 20px;
   
+      }
+
+      .bloc-interieur h2{
+        font-size: 30px;}
+      
+        
+footer ul{
+  font-size: 25px;
+}
