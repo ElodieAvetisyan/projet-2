@@ -3,6 +3,7 @@
 body{
   padding: 0;
   margin: 0;
+  width: 100%;
 
 }
 
@@ -141,6 +142,7 @@ header p{
       align-items: center;
       border-radius: 15px 15px 15px 15px;
       border: none;
+      display: none;
     }
   
 /*filtres*/
@@ -247,7 +249,7 @@ color: #0065fc;
   /*main*/
 
   main{
-    width: 70%;
+    width: 98%;
   }
 /*bloc hebergement*/
 .titre_bloc_hebergement{
@@ -259,16 +261,15 @@ color: #0065fc;
 .deux_blocs{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 140%;
+  justify-content: space-between;
+  width: 100%;
   
   }
 
 
 .bloc_hebergement{
   flex: 2;
-  height: 690px;
-  width: 400px;
+ 
   margin-left: 40px;
   margin-right: 10px;
   border-radius: 20px;
@@ -280,8 +281,7 @@ color: #0065fc;
 
 .bloc_populaire{
   flex: 1;
-  height: 690px;
-  width: 80px;
+
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 20px;
@@ -456,9 +456,12 @@ padding-top: 50px;
 
 /*Activités à marseille*/
 
+#activites{
+  width: 100%;
+}
+
 .activites_a_marseille{
-  width: 140%;
-  height: 630px;
+  width: 100%;
 }
 
 .titre{
@@ -485,7 +488,7 @@ padding-top: 50px;
 
 .deuxiemebloc{
   width: 50%;
-  height: 500px;
+ height: 500px;
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -616,7 +619,8 @@ footer ul{
 .bloc_footer{
   width: 100%;
   margin-top: 20px;
-  display: block;
+  display: flex;
+  justify-content: space-around;
   margin-right: 0; 
   margin-left: 0; 
 }

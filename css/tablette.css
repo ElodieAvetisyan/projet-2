@@ -1,47 +1,43 @@
-@media screen and (min-width:768px)
 
--nav ul{
+html
+{
+    min-width: 950px;
+}
+
+main,body{
+    width: 92%;
+}
+
+nav ul{
     margin-left: 200px;
-      }
+ }
   
-  .deux_blocs{
-          width: 155%
-          }
+
   
-  .bloc_hebergement{
-          height: 750px;
-      }
-  
-   .bloc_populaire{
-          height: 750px;
-  
-      }
-  
-  .stars{
-              padding-top: 0px;
-              
-          }
+.stars{
+  padding-top: 0px;
+}
           
           
-  .activites_a_marseille{    
-      width: 155%;   
+.activites_a_marseille{    
+ width: 100%;   
+}
+  
+.container1{
+     height: 470px;
   }
   
-  .container1{
-      height: 470px;
-  }
+.container2{
+ width: 55%;
+height: 240px;
+}
   
-  .container2{
-      width: 55%;
-      height: 240px;
-  }
+.container3{
+ width: 55%;
+ }
   
-  .container3{
-      width: 55%;
-  }
-  
-  footer{
-    width: 110%;
+footer{
+    width: 100%;
   }
   
 .loupe{
