@@ -1,0 +1,43 @@
+
+html
+{
+    min-width: 950px;
+}
+
+main,body{
+    width: 92%;
+}
+
+nav ul{
+    margin-left: 200px;
+ }
+
+ .loupe{
+  display: none;
+}
+
+.stars{
+  padding-top: 0px;
+}
+                   
+.activites_a_marseille{    
+ width: 100%;   
+}
+  
+.container1{
+     height: 470px;
+  }
+  
+.container2{
+ width: 55%;
+height: 240px;
+}
+  
+.container3{
+ width: 55%;
+ }
+  
+footer{
+    width: 100%;
+  }
+  

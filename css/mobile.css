@@ -6,6 +6,7 @@ body{
   main{
     width: 80%;
   }
+
     header{
         
         display: flex;
@@ -15,13 +16,13 @@ body{
     #logo img{
         width: 500px;
         height: 50%;
-        margin-left: 30%;
+        margin-left: 26%;
         margin-top: 15px;
     }
 
     nav{
         width: 900px;
-       margin-left: 40%;
+       margin-left: 35%;
        margin-right: 0;
       margin-top: 05%;}
 
@@ -53,16 +54,16 @@ body{
 
     h1{
         margin-top: 05%;
-        margin-left: 08%;
+        margin-left: 03%;
         width: 100%;
-        font-size: 60px;
+        font-size: 55px;
         font-weight: 900;
     }
 
      p{
         width: 100%;
-        margin-left: 08%;
-        font-size: 50px;
+        margin-left: 03%;
+        font-size: 45px;
         font-weight: 500;
 
       }
@@ -70,7 +71,7 @@ body{
       form{
         margin-top: 10%;
         margin-bottom: 50px;
-        margin-left: 05%;
+        margin-left: 0;
         width: 100%;
       }
 
@@ -102,7 +103,7 @@ body{
 .filtres{
     display: flex;
     flex-direction: column;
-    padding-left: 20%;
+    padding-left: 08%;
     width: 100%;
 }
 
@@ -178,13 +179,14 @@ justify-content: left;
       .bloc_hebergement{
         flex: 1;
         width: 100%;
+        margin-left: 03%;
         background-color: white;
       
       }
       
       .bloc_populaire{
         margin-top: 20px;
-        margin-left: 10%;
+        margin-left: 03%;
         padding: 10px;
         background-color: #F2F2F2;
         width: 900px;      
@@ -205,7 +207,7 @@ justify-content: left;
         width: 800px;
         height: 300px;
       }
-}
+
       .card h3{
         font-size: 40px;
         font-weight: 900;
@@ -222,37 +224,27 @@ justify-content: left;
       .texte_populaire{
         width: 600px;
         height: 400px;
-        
       }
 
       .stars {
         padding-top: 70px;
       }
-      
-
-
-
-
       .titre_bloc_hebergement{
         width: 800px;
         margin-top: 20px;
         margin-left: 0;
         font-size: 50px;
       }
-
       .texte_sous_photo h3{
         font-size: 40px;
       }
-
       .texte_sous_photo p{
         font-size: 35px;
       }
-
       .blocs{
         display: flex;
         flex-direction: column;
       }
-
       .bloc{
      
         margin-left: 0;
@@ -260,16 +252,13 @@ justify-content: left;
         width: 900px;
         height: 400px;
       }
-
       .bloc .figure-image{
         height: 210px;
     
       }
-
       .fa-solid.fa-star{
         font-size: 30px;
       }
-
       .afficher h3{
         margin-left: 0;
         font-size: 40px;
@@ -282,7 +271,6 @@ justify-content: left;
 .activites_a_marseille{
 width: 100%;
 }
-      
       .deux_blocs_activites{
         width: 100%;
         display: flex;
@@ -290,20 +278,17 @@ width: 100%;
       }
 
       .premierbloc{
-      
         flex-wrap: nowrap;
         margin-bottom: 05%;
         height: 990px;
-        margin-right: 200px;
+        margin-right: 250px;
       }
 
       .deuxiemebloc{
         
         flex-wrap: nowrap;
         height: 990px;
-     margin-right: 200px
-
-
+     margin-right: 250px
       }
 
       .titre{
@@ -315,12 +300,12 @@ width: 100%;
 
       .container1{
         width: 800px;
-   height: 450px;
+        height: 450px;
         margin-bottom: 30px;
         }
 
       .container1 .figure-image{
-height: 220px;    
+      height: 220px;    
       }
     
       .container1 h2{
@@ -386,6 +371,6 @@ width: 100%;
      margin-left: 50%;
   }
   
-    
+}   
 
    

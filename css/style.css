@@ -359,9 +359,6 @@ p{
   color: #0065fc;
 }
 
- /*les images hebergement*/
-
-
 /*le bloc populaire*/
 
 .titre_bloc_populaire {
@@ -427,8 +424,6 @@ p{
 .card p{
   margin: 10px 0;
 }
-
-
 
 .texte_populaire{
   width: 70%;

@@ -11,14 +11,15 @@ main,body{
 nav ul{
     margin-left: 200px;
  }
-  
 
-  
+ .loupe{
+  display: none;
+}
+
 .stars{
   padding-top: 0px;
 }
-          
-          
+                   
 .activites_a_marseille{    
  width: 100%;   
 }
@@ -40,6 +41,3 @@ footer{
     width: 100%;
   }
   
-.loupe{
-    display: none;
-}
